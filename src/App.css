@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #3e5f73;
+ color: white;
+  height: 45rem;
 }
 
 .App-logo {
@@ -35,4 +38,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#title{
+  font-size: 45px;
+}
+
+#add{
+background-color:#6191b5 ;
+margin: 0 1rem;
+border-radius:8px ;
+}
+
+#sub{
+background-color: #fe938c;
+border-radius:8px ;
+}
+
+#reset{
+background-color: #e71d37;
+border-radius:8px ;
+}
+
+#questionButton{
+  background-color: #ead27a;
+  border-radius:8px ;
+
+}
+
+#revealButton{
+  background-color: #1a2650;
+  color: white;
+ width: 28rem;
+ height: 5rem;
+ margin-bottom: .5rem;
+}
+
+button{
+  border: none;
+  font-size: 24px;
+}
+
+.text{
+  color: #ead27a;
+  font-size: 36px;
 }
